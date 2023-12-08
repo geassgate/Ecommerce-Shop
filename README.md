@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# E-commerce Shopping Website with FakeStore Api
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a fully responsive e-commerce shopping website project built using React and Tailwind CSS. The website utilizes the Fake Store API to fetch data and display products. The Context API is used to manage state throughout the application.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Demo](#demo)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [Installation and Setup](#installation-and-setup)
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can see a live demo of this project [here](https://ecommerce-shop-react-app.vercel.app/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- `Home page` displays the `featured products`, which are fetched from the **Fake Store API**. Each product card displays the product image, name, and price.
+- `Product Details` page showing a detailed view of the selected product, including an image, title, description and price.
+- `Cart` page displaying the added products, quantities and total price. The user can **add or remove products** from the cart, and the cart will update accordingly.
+- Fully `responsive design` that can adapt to different screen sizes and devices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+- **React**: A JavaScript library for building user interfaces
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
+- **Fake Store API**: A free API for testing and prototyping e-commerce websites
+- **Context API**: A React API for managing global state in an application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Below are some screenshots of the website.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Home Page](/src/img/home-page.png)
 
-### `npm run eject`
+![Cart/Sidebar](/src/img/cart.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation and Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository to your local machine.
+2. Navigate to the project directory and run `npm install` to install all dependencies.
+3. Run `npm start` to start the application.
+4. Open `http://localhost:3000` in your browser to view the website.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you! 🤍
+– Nigar Safarova
